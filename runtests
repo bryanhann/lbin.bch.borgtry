@@ -1,0 +1,4 @@
+#!/bin/sh
+> /dev/null pushd $(dirname $0)/tests
+bats .
+> /dev/null popd
